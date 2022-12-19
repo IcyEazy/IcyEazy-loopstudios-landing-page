@@ -3,6 +3,7 @@ let openBtn = document.querySelector(".open-btn"),
     header = document.querySelector("header"),
     main = document.querySelector("main"),
     footer = document.querySelector("footer"),
+    body = document.querySelector("body");
     mobileMenu = document.querySelector(".content");
 
 
@@ -11,6 +12,7 @@ openBtn.addEventListener("click", function(){
     main.classList.toggle("hide-cont");
     footer.classList.toggle("hide-cont");
     mobileMenu.classList.toggle("show");
+    body.classList.toggle("black");
 });
 
 closeBtn.addEventListener("click", function(){
@@ -18,4 +20,5 @@ closeBtn.addEventListener("click", function(){
     main.classList.toggle("hide-cont");
     footer.classList.toggle("hide-cont");
     mobileMenu.classList.toggle("show");
+    body.classList.toggle("black");
 });

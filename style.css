@@ -50,6 +50,9 @@ picture:hover{
 .show{
     display: block;
 }
+.black{
+    background-color: black;
+}
 
 header{
     background-image: url("./images/desktop/image-hero.jpg");
